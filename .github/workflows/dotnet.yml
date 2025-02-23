@@ -27,5 +27,5 @@ jobs:
       run: dotnet build ProjectSetup.sln --no-restore
     - name: Test
       run: dotnet test ProjectSetup.sln --no-build --verbosity normal
-    - name: Publish
-      run: dotnet publish ProjectSetup.sln --configuration Release --no-restore --no-build
+    # - name: Publish
+    #   run: dotnet publish ProjectSetup.sln --configuration Release --no-restore --no-build
