@@ -1,0 +1,35 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Configure code analysis. -->
+		<!--
+
+		-->
+		<!-- 代码分析级别 最新的代码分析规则 -->
+		<!--
+		<AnalysisLevel>latest</AnalysisLevel> 
+		-->
+		<!-- 代码分析的模式 启用所有代码分析检查 -->
+		<!--
+		<AnalysisMode>All</AnalysisMode>
+		-->
+		<!-- 警告视为错误 -->
+		<!--
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+
+		-->
+		<!-- 在构建过程中强制执行代码风格检查 -->
+		<!--
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>-->
+	</PropertyGroup>
+	<!--<ItemGroup>
+		<PackageReference Include="SonarAnalyzer.CSharp">
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>-->
+
+</Project>
